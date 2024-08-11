@@ -59,7 +59,7 @@ def upload_folder():
 
 
 #define excel sheet
-excel_path = "Journal 2.xlsx"
+excel_path = "Journal.xlsx"
 
 model = None
 folder_path = None
