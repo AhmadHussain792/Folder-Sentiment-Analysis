@@ -2,7 +2,7 @@
 
 The PDF Sentiment Analyzer App is a Python-based graphical user interface (GUI) application that allows users to perform sentiment analysis on PDF files within a selected folder. The app supports multiple sentiment analysis models, including VADER, TextBlob, BERT Transformer, and Flair. Results are saved to an Excel file.
 
-Example PDF files are uploaded in the 'PDF' folder and the sentiment analysis of these files using VADER is stored in 'JOURNAL.XLSX' excel file.
+Example PDF files are uploaded in the 'PDF' folder and the sentiment analysis of these files using VADER is stored in 'JOURNAL.XLSX' excel file. Moreover, the python code for the 4 AI models can be found in the 'SentimentModels' folder.
 
 # Features
 - Model Selection: Choose from multiple sentiment analysis models (VADER, TextBlob, BERT Transformer, Flair).
