@@ -26,22 +26,23 @@ The folder structure for all of the program files is as follows:
 
 ![folder structure ](https://github.com/user-attachments/assets/e666c54e-e5c6-4f74-beaf-9065ea848ed8)
 
-*Explanation of app.py*:
+***Explanation of app.py***:
 
-- write_to_excel(data, folder_path): Converts the sentiment analysis data into a DataFrame and writes it to an Excel file. It notifies the user once the data has been written using 'messagebox'
-- backend_process(): Handles the main logic of the app, and checks if a folder is selected and a model is chosen, then processes the PDFs using the selected model. It calls write_to_excel() to save the results.
-- on_select_model(event): Updates the global 'model' variable when a model is selected from the combobox.
-- remove_placeholder_model(event): Clears the placeholder text in the model selection combobox when clicked.
-- upload_folder(): Opens a dialog for selecting a folder and updates the global 'folder_path' variable.
+- write_to_excel(data, folder_path) : Converts the sentiment analysis data into a DataFrame and writes it to an Excel file. It notifies the user once the data has been written using 'messagebox'
+- backend_process() : Handles the main logic of the app, and checks if a folder is selected and a model is chosen, then processes the PDFs using the selected model. It calls write_to_excel() to save the results.
+- on_select_model(event) : Updates the global 'model' variable when a model is selected from the combobox.
+- remove_placeholder_model(event) : Clears the placeholder text in the model selection combobox when clicked.
+- upload_folder() : Opens a dialog for selecting a folder and updates the global 'folder_path' variable.
 
-*Explanation of model .py files*:
-Note: this is a general explanation of what the functions used in the AI model python files do, the working of each function may vary from model to model:
+***Explanation of model .py files***:
 
-- read_pdf(pdf_path): opens the PDF file and extracts the text from it.
-- tokenizer(text): tokenizes the text extracted from the PDF file into sentences using 'nltk.sent_tokenize'
-- perform_sentiment_analysis(): This function calls 'tokenizer' function and performs sentiment analysis on each sentence. It returns an aggregated sentiment score across all sentences.
-- overall_sentiment(): Calls 'perform_sentiment_analysis' function and determines the overall sentiment (positive or negative) based on the values returned.
-- process_pdf(folder_path): Main backend function that orchestrates the sentiment analysis process by calling the above functions
+**Note: this is a general explanation of what the functions used in the AI model python files do; the working of each function may vary from model to model:**
+
+- read_pdf(pdf_path) : opens the PDF file and extracts the text from it.
+- tokenizer(text) : tokenizes the text extracted from the PDF file into sentences using 'nltk.sent_tokenize'
+- perform_sentiment_analysis() : This function calls 'tokenizer' function and performs sentiment analysis on each sentence. It returns an aggregated sentiment score across all sentences.
+- overall_sentiment() : Calls 'perform_sentiment_analysis' function and determines the overall sentiment (positive or negative) based on the values returned.
+- process_pdf(folder_path) : Main backend function that orchestrates the sentiment analysis process by calling the above functions
 
 
 # Final Result
