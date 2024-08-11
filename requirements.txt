@@ -1,0 +1,25 @@
+The versions and packages that I used for this project are as follows:
+
+python version : 3.12.4
+conda version : 24.7.1
+
+I created a virtual environment using Anaconda and installed all required libraries inside the environment
+
+matplotlib : 3.9.0
+numpy : 1.26.4
+numpy-base : 1.26.4
+nltk : 3.8.1
+openpyxl : 3.1.5
+pandas : 2.2.2
+pillow : 10.4.0
+pypdf2 : 2.10.5
+pytorch : 2.3.0
+requests : 2.32.3
+beautifulsoup4 : 4.12.3
+flair : 0.14.0
+huggingface_hub : 0.23.1
+pytorch-revgrad : 0.2.0
+textblob : 0.18.0.post0
+tokenizers : 0.19.1
+transformers : 4.41.2
+transformer-smaller-training-vocab : 0.4.0
