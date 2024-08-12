@@ -33,6 +33,10 @@ The folder structure for all of the program files is as follows:
 
 ![folder structure ](https://github.com/user-attachments/assets/e666c54e-e5c6-4f74-beaf-9065ea848ed8)
 
+The flowchart below explains the algorithm:
+
+![folder-flowchart drawio](https://github.com/user-attachments/assets/bf70d9fd-6632-4b9d-b37d-4dbd1c93d912)
+
 ***Explanation of app.py***:
 
 - `write_to_excel(data, folder_path)` : Converts the sentiment analysis data into a DataFrame and writes it to an Excel file. It notifies the user once the data has been written using `messagebox`
